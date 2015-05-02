@@ -14,7 +14,7 @@
              <h4>Software Design and Development</h4>
          </div>
 
-        <%If Not IsPostBack then%>
+     
 
         <div id="asking">
              What is your name?<br />
@@ -29,17 +29,17 @@
              <asp:Button ID="btn_submit" runat="server" Text="Nice to meet you!" />
         </div>
 
-        <%Else%>
+   
         <div id="answering">
 
             Nice to meet you, <asp:Label ID="lbl_name" runat="server" Text="Label"></asp:Label>! 
             <br />
-            I hope you will earn <asp:Label ID="lbl_money" runat="server" Text="Label"></asp:Label>, when you graduate on
-            <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>!
+            when you graduate on  <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>,
+            I hope you will earn <asp:Label ID="lbl_money" runat="server" Text="Label"></asp:Label>!
            
 
         </div>
-        <%End If%>
+       
 
 
     </form>
