@@ -15,7 +15,7 @@
          </div>
 
      
-
+        <%If Not IsPostBack Then%>
         <div id="asking">
              What is your name?<br />
              <asp:TextBox ID="tb_name" runat="server"></asp:TextBox>
@@ -29,7 +29,7 @@
              <asp:Button ID="btn_submit" runat="server" Text="Nice to meet you!" />
         </div>
 
-   
+        <%Else%>
         <div id="answering">
 
             Nice to meet you, <asp:Label ID="lbl_name" runat="server" Text="Label"></asp:Label>! 
@@ -39,7 +39,7 @@
            
 
         </div>
-       
+       <%End If%>
 
 
     </form>
