@@ -34,11 +34,11 @@ Partial Class _Default
         lbl_date.Text = Calendar1.SelectedDate.ToShortDateString
 
         If rb_male.Checked = True Then
-            lbl_gender.Text = "Mr."
-            RadioButton2.Checked = False
-
+            lbl_male.Visible = True
+            lbl_female.Visible = False
         Else
-            lbl_gender.Text = "Mrs."
+            lbl_female.Visible = True
+            lbl_male.Visible = False
         End If
 
         asking.Visible = False

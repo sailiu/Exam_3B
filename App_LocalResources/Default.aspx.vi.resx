@@ -117,52 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Date.Text" xml:space="preserve">
-    <value>您什么时候将毕业？</value>
-  </data>
-  <data name="FName.Text" xml:space="preserve">
-    <value>请输入您的名字:</value>
-  </data>
-  <data name="gender.Text" xml:space="preserve">
-    <value>请选择您的性别：</value>
+  <data name="h2.Text" xml:space="preserve">
+    <value>Phần mềm thiết kế và phát triển</value>
   </data>
   <data name="h1.Text" xml:space="preserve">
-    <value>欢迎来到 MSCI:3300</value>
-  </data>
-  <data name="h2.Text" xml:space="preserve">
-    <value>软件设计与开发</value>
+    <value>Chào mừng bạn đến MSCI: 3300</value>
   </data>
   <data name="lang.Text" xml:space="preserve">
-    <value>请选择语言</value>
+    <value>Vui lòng chọn ngôn ngữ:</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Khi bạn sẽ được tốt nghiệp?</value>
+  </data>
+  <data name="FName.Text" xml:space="preserve">
+    <value>Vui lòng nhập tên của bạn:</value>
+  </data>
+  <data name="gender.Text" xml:space="preserve">
+    <value>Vui lòng chọn giới tính của bạn:</value>
   </data>
   <data name="LName.Text" xml:space="preserve">
-    <value>请输入您的姓氏：</value>
+    <value>Vui lòng nhập tên của bạn:</value>
   </data>
   <data name="btn_submit.Text" xml:space="preserve">
-    <value>很高兴认识你！</value>
+    <value>Rất vui được gặp bạn!</value>
   </data>
   <data name="meet.Text" xml:space="preserve">
-    <value>很高兴认识你，</value>
+    <value>Rất vui được gặp bạn,</value>
   </data>
   <data name="Money.Text" xml:space="preserve">
-    <value>多少钱你希望毕业后赚多少钱？</value>
+    <value>Bao nhiêu tiền mà bạn hy vọng kiếm được sau khi tốt nghiệp?</value>
   </data>
   <data name="RadioButton2.Text" xml:space="preserve">
-    <value>女</value>
+    <value>nữ</value>
   </data>
   <data name="rb_male.Text" xml:space="preserve">
-    <value>男</value>
+    <value>nam</value>
   </data>
   <data name="gdate.Text" xml:space="preserve">
-    <value>当你在毕业</value>
+    <value>khi bạn tốt nghiệp trên</value>
   </data>
   <data name="hope.Text" xml:space="preserve">
-    <value>我希望你会赚</value>
+    <value>Tôi hy vọng bạn sẽ kiếm được</value>
   </data>
   <data name="lbl_female.Text" xml:space="preserve">
-    <value>女士</value>
+    <value>Bà.</value>
   </data>
   <data name="lbl_male.Text" xml:space="preserve">
-    <value>先生</value>
+    <value>Ông.</value>
   </data>
 </root>

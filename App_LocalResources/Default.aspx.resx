@@ -153,4 +153,16 @@
   <data name="rb_male.Text" xml:space="preserve">
     <value>Male</value>
   </data>
+  <data name="gdate.Text" xml:space="preserve">
+    <value>when you graduate on</value>
+  </data>
+  <data name="hope.Text" xml:space="preserve">
+    <value>I hope you will earn</value>
+  </data>
+  <data name="lbl_female.Text" xml:space="preserve">
+    <value>Mrs. </value>
+  </data>
+  <data name="lbl_male.Text" xml:space="preserve">
+    <value>Mr. </value>
+  </data>
 </root>

@@ -9,22 +9,27 @@
 <body>
     <form id="form1" runat="server">
     
-         <div id="header">
-             <div id="rightheader" style="float:right;">
-                 <asp:Label ID="lang" Text="" runat="server" meta:resourceKey="lang"></asp:Label>
+         <div id="header" style="border-style:solid; text-align:center; padding:10px; ">
+
+       
+            
+             <h1> <asp:Label ID="h1" runat="server" Text="label" meta:resourceKey="h1"></asp:Label> </h1>
+             <h3>  <asp:Label ID="h2" runat="server" Text="" meta:resourceKey="h2"/></h3>
+              
+               
+                 <asp:Label ID="lang" Text="" runat="server" meta:resourceKey="lang" ></asp:Label>
                      <asp:DropDownList ID="dropdown" runat="server" autopostback="true">
                         <asp:ListItem Value="en-US">English</asp:ListItem>
                         <asp:ListItem Value="zh-CN">中文</asp:ListItem>
                         <asp:ListItem Value="fr">français</asp:ListItem>
                         <asp:ListItem Value="vi">VietNamese</asp:ListItem>
                      </asp:DropDownList>
-             </div>
-             <h1> <asp:Label ID="h1" runat="server" Text="label" meta:resourceKey="h1"></asp:Label> </h1>
-             <h4>  <asp:Label ID="h2" runat="server" Text="" meta:resourceKey="h2"/></h4>
+           <br />
+               
          </div>
 
      
-     
+     <div id="body" style="border-style:solid; margin-right:auto; margin-left:auto; padding:10px; margin:10px;" >
         <div id="asking" runat="server">
             <asp:Label ID="FName" runat="server" Text="" meta:resourceKey="FName" /><br />
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -49,16 +54,19 @@
        
         <div id="answering" runat="server">
 
-            <asp:Label ID="meet" runat="server" Text="" meta:resourceKey="meet"></asp:Label><asp:Label ID="lbl_gender" runat="server" Text=""></asp:Label> <asp:Label ID="lbl_name" runat="server" Text="Label"></asp:Label>! 
+            <asp:Label ID="meet" runat="server" Text="" meta:resourceKey="meet"></asp:Label>
+            <asp:Label ID="lbl_male" runat="server" Text="" meta:resourceKey="lbl_male"></asp:Label>
+            <asp:Label ID="lbl_female" runat="server" Text="" meta:resourceKey="lbl_female"></asp:Label>
+            <asp:Label ID="lbl_name" runat="server" Text="Label"></asp:Label>! 
             <br />
-            when you graduate on  <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>,
-            I hope you will earn <asp:Label ID="lbl_money" runat="server" Text="Label"></asp:Label>!
+            <asp:Label ID="gdate" runat="server" Text="Label" meta:resourceKey="gdate"></asp:Label>  <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>,
+            <asp:Label ID="hope" runat="server" Text="Label" meta:resourceKey="hope"></asp:Label> <asp:Label ID="lbl_money" runat="server" Text="Label"></asp:Label>!
            
 
         </div>
       
 
-
+        </div>
     </form>
 </body>
 </html>

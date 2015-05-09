@@ -117,7 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="h2.text" xml:space="preserve">
-    <value>hellow</value>
+  <data name="h2.Text" xml:space="preserve">
+    <value>Conception et développement de logiciels</value>
+  </data>
+  <data name="h1.Text" xml:space="preserve">
+    <value>Bienvenue à MSCI: 3300</value>
+  </data>
+  <data name="lang.Text" xml:space="preserve">
+    <value>S'il vous plaît choisir la langue:</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Quand serez-vous diplômé?</value>
+  </data>
+  <data name="FName.Text" xml:space="preserve">
+    <value>S'il vous plaît entrer votre prénom:</value>
+  </data>
+  <data name="gender.Text" xml:space="preserve">
+    <value>S'il vous plaît choisir votre sexe:</value>
+  </data>
+  <data name="LName.Text" xml:space="preserve">
+    <value>S'il vous plaît entrer votre nom:</value>
+  </data>
+  <data name="btn_submit.Text" xml:space="preserve">
+    <value>Enchanté de faire votre connaissance!</value>
+  </data>
+  <data name="meet.Text" xml:space="preserve">
+    <value>Enchanté de faire votre connaissance,</value>
+  </data>
+  <data name="Money.Text" xml:space="preserve">
+    <value>Combien d'argent espérez-vous gagner après l'obtention du diplôme?</value>
+  </data>
+  <data name="RadioButton2.Text" xml:space="preserve">
+    <value>femelle</value>
+  </data>
+  <data name="rb_male.Text" xml:space="preserve">
+    <value>mâle</value>
+  </data>
+  <data name="gdate.Text" xml:space="preserve">
+    <value>quand vous êtes passé sur</value>
+  </data>
+  <data name="hope.Text" xml:space="preserve">
+    <value>Je l'espère, vous gagnerez</value>
+  </data>
+  <data name="lbl_female.Text" xml:space="preserve">
+    <value>Mme</value>
+  </data>
+  <data name="lbl_male.Text" xml:space="preserve">
+    <value>M.</value>
   </data>
 </root>
